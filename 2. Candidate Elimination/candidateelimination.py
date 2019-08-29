@@ -85,7 +85,7 @@ def minimal_specialization(d):
     g = list(list(tup) for tup in g)
     print("G LIST-",g)
 
-f = open('C:\\Users\\Administrator\\PycharmProjects\\candidateelimination\\enjoysport.csv')
+f = open('enjoysport.csv')
 data = csv.reader(f)
 
 for d in data:
